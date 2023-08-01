@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+<body>
+    <h1>TIENDAS YOLU</h1>
+    <nav>
+        <ul>
+            <li><a href="expo1.html">PUMA</a></li>
+            <li><a href="2.html">ADIDAS</a></li>
+            <li><a href="3.html">NIKE</a></li>
+        </ul>
+    </nav>
+    <main>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre"><br><br>
+    <section class="productos">
+    <div class="producto">
+    <h2>ZAPATILLAS URBANO PUMA SUEDE CLASSIC XXI 374915 05</h2>
+    <div class="modelo" id="modelo1">
+        <img src="z1.jpg" alt="ZAPATILLAS URBANO PUMA SUEDE CLASSIC XXI 374915 05 - Modelo 1" draggable="true" class="abc">
+        <img src="z2.jpg" alt="ZAPATILLAS URBANO PUMA SUEDE CLASSIC XXI 374915 05 - Modelo 2" draggable="true" class="abc">
+        <img src="z3.jpg" alt="ZAPATILLAS URBANO PUMA SUEDE CLASSIC XXI 374915 05 - Modelo 3" draggable="true" class="abc">
+    </div>
+    <p>Precio: S/.159</p>
+        <label for="talla1">Talla:</label>
+        <select id="talla1">
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+
+        </select>
+        <button onclick="agregarAlCarrito('ZAPATILLAS URBANO PUMA SUEDE CLASSIC XXI 374915 05', 159, 'talla1')">Agregar al carrito</button>
+    </div>
+
+     <div class="producto">
+     <h2>ZAPATILLAS URBANO PUMA PARA HOMBRE COURT 70 MIX 387335 04</h2>
+     <div class="modelo" id="modelo2">
+        <img src="z4.jpg" alt="ZAPATILLAS URBANO PUMA PARA HOMBRE COURT 70 MIX 387335 04 - Modelo 1" draggable="true" class="abc">
+        <img src="z5.jpg" alt="ZAPATILLAS URBANO PUMA PARA HOMBRE COURT 70 MIX 387335 04 - Modelo 2" draggable="true" class="abc">
+        <img src="z6.jpg" alt="ZAPATILLAS URBANO PUMA PARA HOMBRE COURT 70 MIX 387335 04 - Modelo 3" draggable="true" class="abc">
+       </div>
+        <p>Precio: S/.189</p>
+        <label for="talla2">Talla:</label>
+        <select id="talla2">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+
+        </select>
+        <button onclick="agregarAlCarrito('ZAPATILLAS URBANO PUMA PARA HOMBRE COURT 70 MIX 387335 04 ', 189, 'talla2')">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+        <h2>ZAPATILLAS URBANAS PUMA PARA HOMBRE R78</h2>
+        <div class="modelo" id="modelo3">
+            <img src="z7.jpg" alt="ZAPATILLAS URBANAS PUMA PARA HOMBRE R78 - Modelo 1" draggable="true" class="abc">
+            <img src="z8.jpg" alt="ZAPATILLAS URBANAS PUMA PARA HOMBRE R78 - Modelo 2" draggable="true" class="abc">
+            <img src="z9.jpg" alt="ZAPATILLAS URBANAS PUMA PARA HOMBRE R78 - Modelo 3" draggable="true" class="abc">
+        </div>
+            <p>Precio: S/.229</p>
+            <label for="talla3">Talla:</label>
+            <select id="talla3">
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+
+            </select>
+            <button onclick="agregarAlCarrito('ZAPATILLAS URBANAS PUMA PARA HOMBRE R78', 229, 'talla3')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+        <h2>ZAPATILLAS URBANAS PUMA PARA HOMBRE BARI CASUAL 389382 04</h2>
+        <div class="modelo" id="modelo4">
+        <img src="z10.jpg" alt="ZAPATILLAS URBANAS PUMA PARA HOMBRE BARI CASUAL 389382 04 - Modelo 1" draggable="true" class="abc">
+        <img src="z11.jpg" alt="ZAPATILLAS URBANAS PUMA PARA HOMBRE BARI CASUAL 389382 04 - Modelo 2" draggable="true" class="abc">
+        <img src="z12.jpg" alt="ZAPATILLAS URBANAS PUMA PARA HOMBRE BARI CASUAL 389382 04 - Modelo 3" draggable="true" class="abc">
+        </div>
+        <p>Precio: S/.169</p>
+        <label for="talla4">Talla:</label>
+        <select id="talla4">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+       
+        </select>
+        <button onclick="agregarAlCarrito('ZAPATILLAS URBANAS PUMA PARA HOMBRE BARI CASUAL 389382 04', 169, 'talla4')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+        <h2>ZAPATILLAS URBANO PUMA PARA HOMBRE UP 372605 34</h2>
+        <div class="modelo" id="modelo5">
+        <img src="z13.jpg" alt="ZAPATILLAS URBANO PUMA PARA HOMBRE UP 372605 34 - Modelo 1" draggable="true" class="abc">
+        <img src="z14.jpg" alt="ZAPATILLAS URBANO PUMA PARA HOMBRE UP 372605 34 - Modelo 2" draggable="true" class="abc">
+        <img src="z15.jpg" alt="ZAPATILLAS URBANO PUMA PARA HOMBRE UP 372605 34 - Modelo 3" draggable="true" class="abc">
+        </div>
+        <p>Precio: S/.259</p>
+        <label for="talla5">Talla:</label>
+        <select id="talla5">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+           
+        </select>
+        <button onclick="agregarAlCarrito('ZAPATILLAS URBANO PUMA PARA HOMBRE UP 372605 34', 259, 'talla5')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+        <h2>ZAPATILLAS DEPORTIVAS PUMA PARA HOMBRE NIGHT RUNNER V2 379257 01</h2>
+        <div class="modelo" id="modelo6">
+        <img src="z16.jpg" alt="ZAPATILLAS DEPORTIVAS PUMA PARA HOMBRE NIGHT RUNNER V2 379257 01 - Modelo 1" draggable="true" class="abc">
+        <img src="z17.jpg" alt="ZAPATILLAS DEPORTIVAS PUMA PARA HOMBRE NIGHT RUNNER V2 379257 01 - Modelo 2" draggable="true" class="abc">
+        <img src="z18.jpg" alt="ZAPATILLAS DEPORTIVAS PUMA PARA HOMBRE NIGHT RUNNER V2 379257 01 - Modelo 3" draggable="true" class="abc">
+        </div>
+        <p>Precio: S/.199</p>
+        <label for="talla6">Talla:</label>
+        <select id="talla6">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+               
+        </select>
+        <button onclick="agregarAlCarrito('ZAPATILLAS DEPORTIVAS PUMA PARA HOMBRE NIGHT RUNNER V2 379257 01', 199, 'talla6')">Agregar al carrito</button>
+           </div>
+
+        <section class="carrito">
+            <h2>Carrito de compras :</h2>
+            <ul id="lista-carrito">
+
+            </ul>
+            <p>Total: <span id="total">0</span></p>
+            <button onclick="comprar()">Comprar</button>
+        </section>
+    </main>
+
+    <section class="comentarios">
+        <h2>Comentarios de clientes</h2>
+        <form id="comment-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar comentario</button>
+        </form>
+
+        <div class="comentarios-lista" id="comentarios-lista">
+            <!-- Aquí se mostrarán los comentarios dinámicamente usando JavaScript -->
+            <!-- Los comentarios se agregarán mediante el uso de JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Zapatillas</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+<body>
+    <h1>TIENDAS YOLU</h1>
+    <nav>
+        <ul>
+            <li><a href="expo1.html">PUMA</a></li>
+            <li><a href="2.html">ADIDAS</a></li>
+            <li><a href="3.html">NIKE</a></li>
+        </ul>
+    </nav>
+    <main>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre"><br><br>
+    <section class="productos">
+    <div class="producto">
+    <h2>Zapatillas Urbanas Hombre Ozelle CLOUDFOAM Adidas</h2>
+    <div class="modelo" id="modelo1">
+        <img src="1.jpg" alt="Zapatillas Urbanas Hombre Ozelle CLOUDFOAM Adidas - Modelo 1" draggable="true" class="abc">
+        <img src="2.jpg" alt="Zapatillas Urbanas Hombre Ozelle CLOUDFOAM Adidas - Modelo 2" draggable="true" class="abc">
+        <img src="3.jpg" alt="Zapatillas Urbanas Hombre Ozelle CLOUDFOAM Adidas - Modelo 3" draggable="true" class="abc">
+    </div>
+    <p>Precio: S/.329</p>
+        <label for="talla1">Talla:</label>
+        <select id="talla1">
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+
+        </select>
+        <button onclick="agregarAlCarrito('Zapatillas Urbanas Hombre Ozelle CLOUDFOAM Adidas', 329, 'talla1')">Agregar al carrito</button>
+    </div>
+
+     <div class="producto">
+     <h2>Zapatillas Urbanas Hombre VS Pace 2.0 Adidas</h2>
+     <div class="modelo" id="modelo2">
+        <img src="4.jpg" alt="Zapatillas Urbanas Hombre VS Pace 2.0 Adidas - Modelo 1" draggable="true" class="abc">
+        <img src="5.jpg" alt="Zapatillas Urbanas Hombre VS Pace 2.0 Adidas - Modelo 2" draggable="true" class="abc">
+        <img src="6.jpg" alt="Zapatillas Urbanas Hombre VS Pace 2.0 Adidas - Modelo 3" draggable="true" class="abc">
+       </div>
+        <p>Precio: S/.249</p>
+        <label for="talla2">Talla:</label>
+        <select id="talla2">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+
+        </select>
+        <button onclick="agregarAlCarrito('Zapatillas Urbanas Hombre VS Pace 2.0 Adidas ', 249, 'talla2')">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+        <h2>Zapatillas Urbanas Hombre adidas Originals Hoops 3.0</h2>
+        <div class="modelo" id="modelo3">
+            <img src="7.jpg" alt="Zapatillas Urbanas Hombre adidas Originals Hoops 3.0 - Modelo 1" draggable="true" class="abc">
+            <img src="8.jpg" alt="Zapatillas Urbanas Hombre adidas Originals Hoops 3.0 - Modelo 2" draggable="true" class="abc">
+            <img src="9.jpg" alt="Zapatillas Urbanas Hombre adidas Originals Hoops 3.0 - Modelo 3" draggable="true" class="abc">
+        </div>
+            <p>Precio: S/.229</p>
+            <label for="talla3">Talla:</label>
+            <select id="talla3">
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+
+            </select>
+            <button onclick="agregarAlCarrito('Zapatillas Urbanas Hombre adidas Originals Hoops 3.0', 229, 'talla3')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+        <h2>Zapatillas Urbanas Hombre adidas Crazychaos Shadow</h2>
+        <div class="modelo" id="modelo4">
+        <img src="10.jpg" alt="Zapatillas Urbanas Hombre adidas Crazychaos Shadow - Modelo 1" draggable="true" class="abc">
+        <img src="11.jpg" alt="Zapatillas Urbanas Hombre adidas Crazychaos Shadow - Modelo 2" draggable="true" class="abc">
+        <img src="12.jpg" alt="Zapatillas Urbanas Hombre adidas Crazychaos Shadow - Modelo 3" draggable="true" class="abc">
+        </div>
+        <p>Precio: S/.240</p>
+        <label for="talla4">Talla:</label>
+        <select id="talla4">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+       
+        </select>
+        <button onclick="agregarAlCarrito('Zapatillas Urbanas Hombre adidas Crazychaos Shadow', 240, 'talla4')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+        <h2>Zapatillas Urbanas Hombre Hoops 3.0 Adidas</h2>
+        <div class="modelo" id="modelo5">
+        <img src="13.jpg" alt="Zapatillas Urbanas Hombre Hoops 3.0 Adidas - Modelo 1" draggable="true" class="abc">
+        <img src="14.jpg" alt="Zapatillas Urbanas Hombre Hoops 3.0 Adidas - Modelo 2" draggable="true" class="abc">
+        <img src="15.jpg" alt="Zapatillas Urbanas Hombre Hoops 3.0 Adidas - Modelo 3" draggable="true" class="abc">
+        </div>
+        <p>Precio: S/.190</p>
+        <label for="talla5">Talla:</label>
+        <select id="talla5">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+           
+        </select>
+        <button onclick="agregarAlCarrito('Zapatillas Urbanas Hombre Hoops 3.0 Adidas', 190, 'talla5')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+        <h2>Zapatillas Urbanas Hombre adidas Grand Court Alpha -CLOUDFOAM</h2>
+        <div class="modelo" id="modelo6">
+        <img src="16.jpg" alt="Zapatillas Urbanas Hombre adidas Grand Court Alpha -CLOUDFOAM - Modelo 1" draggable="true" class="abc">
+        <img src="17.jpg" alt="Zapatillas Urbanas Hombre adidas Grand Court Alpha -CLOUDFOAM - Modelo 2" draggable="true" class="abc">
+        <img src="18.jpg" alt="Zapatillas Urbanas Hombre adidas Grand Court Alpha -CLOUDFOAM - Modelo 3" draggable="true" class="abc">
+        </div>
+        <p>Precio: S/259</p>
+        <label for="talla6">Talla:</label>
+        <select id="talla6">
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+               
+        </select>
+        <button onclick="agregarAlCarrito('Zapatillas Urbanas Hombre adidas Grand Court Alpha -CLOUDFOAM', 259, 'talla6')">Agregar al carrito</button>
+           </div>
+
+        <section class="carrito">
+            <h2>Carrito de compras :</h2>
+            <ul id="lista-carrito">
+
+            </ul>
+            <p>Total: <span id="total">0</span></p>
+            <button onclick="comprar()">Comprar</button>
+        </section>
+    </main>
+
+    <section class="comentarios">
+        <h2>Comentarios de clientes</h2>
+        <form id="comment-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar comentario</button>
+        </form>
+
+        <div class="comentarios-lista" id="comentarios-lista">
+            <!-- Aquí se mostrarán los comentarios dinámicamente usando JavaScript -->
+            <!-- Los comentarios se agregarán mediante el uso de JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Zapatillas</p>
+    </footer>
+</body>
+</html>
